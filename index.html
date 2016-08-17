@@ -3,19 +3,38 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title Page</title>
+    <title>SPA Quiz Clone</title>
     <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="quiz.css">
   </head>
   <body>
-    <h1 class="text-xs-center">Hello World</h1>
+    <div class="container">
+      <div class="page-header">
+        <h1>Inventory <small>Used Car Lot</small></h1>
+          <div class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" id="userInput" placeholder="Description">
+            </div>
+          <button type="button" class="btn btn-default" id="saveButton">Update</button>
+        </div>
+      </div>
+    <br><br>
+    <div id="carContainer"></div>
+    </div>
+
+
 
 
 
 
 
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <!-- Bootstrap JavaScript -->
-    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+<!--     <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script> -->
+  <script src="carLot.js"></script>
+  <script src="quiz.js"></script>
+  <script src="events.js"></script>
+  <script src="style.js"></script>
   </body>
 </html>

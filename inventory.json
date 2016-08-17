@@ -1,0 +1,65 @@
+{
+  "cars": [
+    {
+      "make": "Hyundai",
+      "model": "Accent",
+      "year": "2014",
+      "price": "11999",
+      "color": "DarkSlateGray",
+      "mileage": "35487",
+      "purchased": false,
+      "description": "Turbo Charged V6, Cold AC, Leather seats, XM Radio."
+    },
+    {
+      "make": "Ford",
+      "model": "Focus",
+      "year": "2014",
+      "price": "10999",
+      "color": "Black",
+      "mileage": "38655",
+      "purchased": false,
+      "description": "This beauty gets 35+MPG! Cloth seats, AC, CD Player."
+    },
+    {
+      "make": "Kia",
+      "model": "Soul",
+      "year": "2013",
+      "price": "9999",
+      "color": "Orange",
+      "mileage": "61966",
+      "purchased": true,
+      "description": "Navigation, 8 speaker BOSE surround sound, power everything."
+    },
+    {
+      "make": "Toyota",
+      "model": "Yaris",
+      "year": "2014",
+      "price": "8999",
+      "color": "Green",
+      "mileage": "51645",
+      "purchased": false,
+      "description": "Leather seats, Sunroof, Remote Start."
+    },
+    {
+      "make": "Ford",
+      "model": "Fusion",
+      "year": "2012",
+      "price": "7999",
+      "color": "Crimson",
+      "mileage": "75678",
+      "purchased": true,
+      "description": "Ford 4.2L EcoBoost engine, navigation, keyless entry, AC, heated and cooled Leather Seats."
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Galant",
+      "year": "2011",
+      "price": "8990",
+      "color": "Pink",
+      "mileage": "65234",
+      "purchased": false,
+      "description": "Great car for teenagers, has nothing to distract them and cold AC."
+    }
+  ]
+}
+
