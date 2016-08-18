@@ -1,3 +1,5 @@
+"use strict";
+
 (function(){
   function populatePage (inventory) {
     var output = document.getElementById('carContainer');
