@@ -1,5 +1,8 @@
-(function(){
+
   function populatePage (inventory) {
+    return new Promise(function (resolve, reject){
+
+
     var output = document.getElementById('carContainer');
     var results = "";
 
@@ -25,12 +28,25 @@
     }
     })
     output.innerHTML = results
+    })
+    resolve(Promise)
 
     // Now that the DOM is loaded, establish all the event listeners needed
-    CarLot.activateEvents();
+
+
   }
 
   // Load the inventory and send a callback function to be
   // invoked after the process is complete
-  CarLot.loadInventory(populatePage);
-})();
+  CarLot.loadInventory();
+  .then(
+    function(inventoryFromLoadInventoryResolve){
+      populatePage(inventoryFromLoadInventoryResolve);
+      console.log('carPromise', inventoryFromLoadInventoryResolve);
+    },
+    function(reason){
+      console.error("something went wrong", reason);
+    })
+  .then(function(){
+    return CarLot.activateEvents();
+  })
